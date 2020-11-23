@@ -8,9 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class CartPage implements OnInit {
 
   constructor() { }
-  unread(item){
-    
-  }
   ngOnInit() {
   }
 
