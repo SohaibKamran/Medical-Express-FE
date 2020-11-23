@@ -1,0 +1,31 @@
+.logo-box{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20%;
+}
+
+.logo-box ion-icon.notification{
+    font-size: 150px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.pop-in {
+    -webkit-animation: .65s pop-in;
+    animation: .65s pop-in;
+}
+.ion-color-green {
+    --ion-color-base: #35C27D;
+    --ion-color-base-rgb: 53,194,125;
+    --ion-color-contrast: #ffffff;
+    --ion-color-contrast-rgb: 255,255,255;
+    --ion-color-shade: #2fab6e;
+    --ion-color-tint: #49c88a;
+}

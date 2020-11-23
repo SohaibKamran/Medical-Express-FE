@@ -1,0 +1,17 @@
+#profile-info{
+    width: 100%;
+    text-align: center;
+}
+#profile-image{
+    display: block;
+    border-radius: 50%;
+    width: auto;
+    height: 110px;
+    margin: 0 auto;
+    -o-border-image: initial;
+    border-image: initial;
+    border: 2px solid rgba(255,255,255,.1);
+}
+.pop-in {
+    animation: .65s pop-in;
+}

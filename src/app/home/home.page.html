@@ -1,0 +1,125 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+         Medical Express 
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/cart">
+        <ion-icon name="cart-sharp"></ion-icon>
+        <label>cart</label>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <label>
+      <h1>Popular Stores</h1>
+      <p>Most Popular Medical Stores With Best ratings</p>
+    </label>
+  </ion-item>
+  <ion-slides [options]="sliderConfig">
+
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2019/02/21/18/36/budapest-4011922__340.jpg" routerLink="/details"/>
+        <ion-card-header>
+          <ion-card-subtitle>Destination</ion-card-subtitle>
+          <ion-card-title>Madison, WI</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Founded in 1829.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide> 
+
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2019/09/06/17/04/china-4456845__340.jpg" routerLink="/details"/>
+        <ion-card-header>
+          <ion-card-subtitle>Destination</ion-card-subtitle>
+          <ion-card-title>Madison, WI</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Founded in 1829.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2020/08/22/07/46/berries-5507771__340.jpg" routerLink="/details"/>
+        <ion-card-header>
+          <ion-card-subtitle>Destination</ion-card-subtitle>
+          <ion-card-title>Madison, WI</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Founded in 1829.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides>
+
+  <br>
+
+  <ion-item>
+    <label>
+      <h1>Popular Medicines</h1>
+      <ion-text>Most Selling medicine with best prices</ion-text>
+    </label>
+  </ion-item>
+
+  <div>
+    <ion-slides [options]="SliderConfig">
+
+      <ion-slide>
+        <ion-card>
+          <img src="https://cdn.pixabay.com/photo/2020/10/17/14/24/river-5662292__340.jpg" routerLink="/details" />
+          <ion-card-header>
+            <ion-card-subtitle>Destination</ion-card-subtitle>
+            <ion-card-title>Madison, WI</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Founded in 1829.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="https://cdn.pixabay.com/photo/2019/11/09/17/36/fjord-4614096__340.jpg" routerLink="/details"/>
+          <ion-card-header>
+            <ion-card-subtitle>Destination</ion-card-subtitle>
+            <ion-card-title>Madison, WI</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Founded in 1829.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="https://cdn.pixabay.com/photo/2020/11/08/09/41/deer-5723225__340.jpg" routerLink="/details"/>
+          <ion-card-header>
+            <ion-card-subtitle>Destination</ion-card-subtitle>
+            <ion-card-title>Madison, WI</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Founded in 1829.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+  
+</ion-content>

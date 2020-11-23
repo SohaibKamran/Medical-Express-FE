@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Categories</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/cart">
+        <ion-icon name="cart-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides [options]="sliderConfig" style="padding-top: 20px;">
+    <ion-slide>
+      <ion-card class="md-card-bg">
+        <img src="https://cdn.pixabay.com/photo/2020/11/02/15/08/autumn-5706984__340.jpg" />
+        <h2 class="md-card-title align-center">Las Vegas</h2>
+      </ion-card>
+    </ion-slide>
+  
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2020/04/17/20/25/chile-5056788__340.jpg" />
+      </ion-card>
+    </ion-slide>
+  
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2020/11/05/23/16/city-5716456__340.jpg" />
+      </ion-card>
+    </ion-slide>
+  
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2020/11/08/15/36/mountain-5724055__340.jpg" />
+      </ion-card>
+    </ion-slide>
+  
+    <ion-slide>
+      <ion-card>
+        <img src="https://cdn.pixabay.com/photo/2020/11/13/08/00/man-5737858__340.jpg" />
+      </ion-card>
+    </ion-slide>
+  
+  </ion-slides>
+</ion-content>

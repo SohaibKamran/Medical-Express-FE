@@ -1,0 +1,26 @@
+.detail-header{
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955_960_720.jpg");
+    position: relative;
+    height: 300px!important;
+    background-size: cover;
+}
+
+.head-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+    position: absolute;
+}
+.show-background {
+    border-style: none;
+    background: var(--ion-color-primary); 
+}
+
+/* Remove bottom border on md */
+.header-md::after {
+    background-image: none;
+}
+
+/* Remove bottom border on ios */
+.header-ios ion-toolbar:last-child {
+    --border-width: 0;
+}

@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="payment" label="BACK"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Checkout</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+<ion-content>
+  <ion-card class="info-card">
+    <ion-card-header>
+      <ion-card-title>
+        <h1>Order Summary</h1>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://cdn.pixabay.com/photo/2020/07/11/11/34/mam-tor-5393685__340.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>Finn</h2>
+          <h3>I'm a big deal</h3>
+          <p>Listen, I've had a pretty messed up day...</p>
+        </ion-label>
+        <h1>$10.00</h1>
+      </ion-item>
+  
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://cdn.pixabay.com/photo/2020/03/23/08/37/taiwan-4959896__340.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>Finn</h2>
+          <h3>I'm a big deal</h3>
+          <p>Listen, I've had a pretty messed up day...</p>
+        </ion-label>
+        <h1>$10.00</h1>
+      </ion-item>
+  
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://cdn.pixabay.com/photo/2020/11/16/16/13/trees-5749406__340.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>Finn</h2>
+          <h3>I'm a big deal</h3>
+          <p>Listen, I've had a pretty messed up day...</p>
+        </ion-label>
+        <h1>$10.00</h1>
+      </ion-item>
+  
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://cdn.pixabay.com/photo/2020/03/14/21/56/wine-4931923__340.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          <h2>Finn</h2>
+          <h3>I'm a big deal</h3>
+          <p>Listen, I've had a pretty messed up day...</p>
+        </ion-label>
+        <h1>$10.00</h1>
+      </ion-item>
+      <ion-item>
+        <h1>Total</h1>
+      <h1 slot="end">$60.00</h1>
+    </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card class="info-card">
+    <ion-card-header>
+      <ion-card-title>
+        <h1>Delivery To</h1>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-item>
+      <ion-label>
+        <h3>Office</h3>
+        <p>Sohaib Kamran</p>
+        <p>11/23 goo road New York , United state</p>
+        <p>9999999</p>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button expand="block" routerLink="/order-complete">Place Order</ion-button>
+  </ion-toolbar>
+</ion-footer>

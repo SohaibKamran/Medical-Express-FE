@@ -1,0 +1,26 @@
+.detail-header{
+    background-image: url("https://images.unsplash.com/photo-1560840038-e595bb6c706d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fHBoYXJtYWN5fGVufDB8fDB8&auto=format&fit=crop&w=500&q=60");
+    position: relative;
+    height: 300px!important;
+    background-size: cover;
+}
+
+.head-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+    position: absolute;
+}
+.show-background {
+    border-style: none;
+    background: var(--ion-color-primary); 
+}
+
+/* Remove bottom border on md */
+.header-md::after {
+    background-image: none;
+}
+
+/* Remove bottom border on ios */
+.header-ios ion-toolbar:last-child {
+    --border-width: 0;
+}

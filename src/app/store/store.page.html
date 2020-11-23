@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar class="head-toolbar" color="secondary" [class.show-background]="showToolbar">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/home" label="BACK"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> 
+
+<ion-content (ionScroll)="onScroll($event)" [scrollEvents]="true">
+  <div class="detail-header"></div>
+  <div style="margin-top: 10px!important;">
+    <ion-item >
+      <ion-label>
+        <h1>Shaheen Chemist</h1>
+      </ion-label>
+        <ion-icon name="star-sharp"></ion-icon>
+        <ion-icon name="star-sharp"></ion-icon>
+        <ion-icon name="star-sharp"></ion-icon>
+        <ion-icon name="star-half-sharp"></ion-icon>
+        <ion-icon name="star-half-sharp"></ion-icon>
+    </ion-item>
+  </div>
+
+  <div class="ion-padding">
+    <p>
+     It is a long established fact that a reader will be distracted by the readable content 
+     of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+     more-or-less normal distribution of letters, as opposed to using 'Content here, 
+     content here', making it look like readable English. Many desktop publishing packages 
+     and web page editors now use Lorem Ipsum as their default model text, and a search for
+      'lorem ipsum' will uncover many web sites still in their infancy. Various versions have 
+      evolved over the years, sometimes by accident, sometimes on purpose 
+    </p>
+  </div>
+  <ion-list>
+    <ion-list-header>Characters</ion-list-header>
+      <ion-item>
+        <ion-label>Jon Snow</ion-label>
+        <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-checkbox color="dark" checked slot="start"></ion-checkbox>
+        <ion-label>Daenerys Targaryen</ion-label>
+      </ion-item>
+    </ion-list>
+
+</ion-content>

@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="cart" label="BACK"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Address</ion-title>
+  </ion-toolbar>
+</ion-header> 
+
+<ion-content padding class="form-content">
+  <form class="ion-margin ion-padding-top">
+    <ion-item>
+      <ion-label position="floating">Address Label( Ex: Home, Office )</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Full Name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Phone Number </ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-button routerLink="/payment" color="primary" expand="block" type="submit">Confirm</ion-button>
+  </form>
+</ion-content>
